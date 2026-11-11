@@ -1,0 +1,82 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "courses": "Courses",
+      "contribute": "Contribute"
+    },
+    "courses": {
+      "title": "Courses",
+      "description": "Browse courses and learning materials",
+      "search": "Search courses...",
+      "all": "All courses",
+      "empty": "No courses are available.",
+      "noResults": "No courses match your search.",
+      "year": "Year",
+      "semester": "Semester",
+      "optionals": "Optional courses",
+      "other": "Other courses",
+      "recommendedRepositories": "Recommended GitHub repositories",
+      "license": "License"
+    },
+    "home": {
+        "description_title":"What's FMI-lib?",
+        "description_paragraph":"FMI-lib is",
+        "courses":"Courses",
+        "more":"View all"
+    },
+    "hero":{
+      "main_text":"Your study essentials, all in one place",
+      "secondary_text":"FMI-lib is your centralized platform for everything related to university. From GitHub repositories to personalized lessons, this is the place where you will find them.",
+      "cta_courses":"Explore courses",
+      "cta_contribute":"Contribute materials"
+    },
+    "about": {
+      "title": "About FMI-lib",
+      "description": "FMI-lib is a bilingual resource library for students at the Faculty of Mathematics and Informatics.",
+      "mission_title": "Learning resources, easier to find",
+      "mission_description": "Our goal is to bring course materials and student-created lessons together in one clear, easy-to-browse place, so you can spend less time searching and more time learning.",
+      "materials_title": "A growing library",
+      "materials_description": "Browse materials organized by course, explore recommended repositories, and find lessons written for the website. Course pages link to their original sources and keep attribution close to the materials.",
+      "principles_title": "Built for students",
+      "principles": [
+        "Resources are organized by course and available in English and Romanian.",
+        "Materials stay linked to their original sources, with licensing and attribution respected.",
+        "The library grows through reviewed contributions from the student community."
+      ],
+      "learn_more": "Learn more about FMI-lib",
+      "courses_link": "Explore courses"
+    },
+    "contribute": {
+      "title": "Help make FMI-lib better",
+      "description": "Useful course resources are easier for everyone to find when students share what they know. You can help by suggesting materials, writing a lesson, or improving existing information.",
+      "ways_title": "Ways to contribute",
+      "ways": [
+        {
+          "title": "Share course materials",
+          "description": "Suggest a public repository or resource that would help students in a specific course."
+        },
+        {
+          "title": "Write a lesson",
+          "description": "Create a clear, original explanation or guide that helps students understand a topic."
+        },
+        {
+          "title": "Improve the library",
+          "description": "Report outdated links, missing attribution, or course details that could be clearer."
+        }
+      ],
+      "how_title": "How it works",
+      "steps": [
+        "Choose a course and identify a resource or improvement that is useful to other students.",
+        "Share the source and its attribution, or prepare an original lesson in English or Romanian.",
+        "Propose the change through the project repository so it can be reviewed before publication."
+      ],
+      "guidelines_title": "A few important guidelines",
+      "guidelines": "Only share resources you have permission to share. Link to original repositories instead of copying their files, respect licenses and attribution, and make sure lessons are your own work. Contributions are reviewed before they are published.",
+      "courses_link": "Browse courses",
+      "repository_link": "Contribute on GitHub",
+      "preview_title": "Have something useful to share?",
+      "preview_description": "Help fellow students by suggesting materials, writing a lesson, or improving course information.",
+      "preview_link": "How to contribute"
+    }
+  }

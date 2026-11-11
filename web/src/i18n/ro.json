@@ -1,0 +1,82 @@
+{
+    "nav": {
+      "home": "Acasă",
+      "about": "Despre",
+      "courses": "Cursuri",
+      "contribute": "Contribuie"
+    },
+    "courses": {
+      "title": "Cursuri",
+      "description": "Răsfoiește cursurile și materialele de studiu",
+      "search": "Caută cursuri...",
+      "all": "Toate cursurile",
+      "empty": "Nu există cursuri disponibile.",
+      "noResults": "Nu s-au găsit cursuri pentru această căutare.",
+      "year": "Anul",
+      "semester": "Semestrul",
+      "optionals": "Cursuri opționale",
+      "other": "Alte cursuri",
+      "recommendedRepositories": "Repository-uri GitHub recomandate",
+      "license": "Licență"
+    },
+    "home": {
+        "description_title":"Ce este Fmi-lib?",
+        "description_paragraph":"FMI-lib este platforma ta centralizată pentru tot ce ține de facultate. Aici găsești resurse complete, ghiduri de studiu și materiale esențiale structurate clar, astfel încât să îți optimizezi învățatul și să treci cu bine peste orice sesiune. ",
+        "courses":"Cursuri",
+        "more":"Vezi tot"
+    },
+    "hero":{
+        "main_text":"Toate resursele de care ai nevoie, într-un singur loc",
+        "secondary_text":"FMI-lib este platforma ta centralizată pentru tot ce ține de facultate. De la repository-uri de pe GitHub până la lecții personalizate, acesta este locul în care le vei găsi.",
+        "cta_courses":"Descoperă cursurile",
+        "cta_contribute":"Contribuie"
+    },
+    "about": {
+      "title": "Despre FMI-lib",
+      "description": "FMI-lib este o bibliotecă bilingvă de resurse pentru studenții Facultății de Matematică și Informatică.",
+      "mission_title": "Resurse de studiu, mai ușor de găsit",
+      "mission_description": "Ne dorim să adunăm materialele pentru cursuri și lecțiile create de studenți într-un singur loc, ușor de explorat, ca să petreci mai puțin timp căutând și mai mult timp învățând.",
+      "materials_title": "O bibliotecă în continuă creștere",
+      "materials_description": "Explorează materiale organizate pe cursuri, repository-uri recomandate și lecții create pentru site. Paginile cursurilor păstrează legătura cu sursele originale și oferă informații despre atribuirea materialelor.",
+      "principles_title": "Creat pentru studenți",
+      "principles": [
+        "Resursele sunt organizate pe cursuri și sunt disponibile în română și engleză.",
+        "Materialele rămân conectate la sursele originale, cu respectarea licențelor și a atribuirii.",
+        "Biblioteca crește prin contribuții verificate din comunitatea studenților."
+      ],
+      "learn_more": "Află mai multe despre FMI-lib",
+      "courses_link": "Explorează cursurile"
+    },
+    "contribute": {
+      "title": "Ajută la dezvoltarea FMI-lib",
+      "description": "Resursele utile pentru cursuri sunt mai ușor de găsit atunci când studenții le împărtășesc. Poți contribui sugerând materiale, scriind o lecție sau îmbunătățind informațiile existente.",
+      "ways_title": "Cum poți contribui",
+      "ways": [
+        {
+          "title": "Distribuie materiale pentru cursuri",
+          "description": "Sugerează un repository public sau o resursă utilă pentru studenții unui anumit curs."
+        },
+        {
+          "title": "Scrie o lecție",
+          "description": "Creează o explicație sau un ghid original și clar, care îi ajută pe studenți să înțeleagă un subiect."
+        },
+        {
+          "title": "Îmbunătățește biblioteca",
+          "description": "Semnalează linkuri care nu mai funcționează, atribuiri lipsă sau informații despre cursuri care pot fi clarificate."
+        }
+      ],
+      "how_title": "Cum funcționează",
+      "steps": [
+        "Alege un curs și identifică o resursă sau o îmbunătățire utilă și pentru alți studenți.",
+        "Trimite sursa și atribuirea necesară sau pregătește o lecție originală în română ori engleză.",
+        "Propune modificarea prin repository-ul proiectului, pentru a putea fi verificată înainte de publicare."
+      ],
+      "guidelines_title": "Câteva recomandări importante",
+      "guidelines": "Distribuie doar resurse pe care ai permisiunea să le partajezi. Pune link către repository-urile originale în loc să le copiezi fișierele, respectă licențele și atribuirea și asigură-te că lecțiile sunt create de tine. Contribuțiile sunt verificate înainte de publicare.",
+      "courses_link": "Vezi cursurile",
+      "repository_link": "Contribuie pe GitHub",
+      "preview_title": "Ai ceva util de împărtășit?",
+      "preview_description": "Ajută-i pe ceilalți studenți sugerând materiale, scriind o lecție sau îmbunătățind informațiile despre cursuri.",
+      "preview_link": "Cum poți contribui"
+    }
+  }

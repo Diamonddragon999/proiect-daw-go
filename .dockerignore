@@ -1,0 +1,6 @@
+web/node_modules
+web/dist
+data
+.git
+*.7z
+*.pdf

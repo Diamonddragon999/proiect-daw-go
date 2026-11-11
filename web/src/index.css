@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("./fonts/MonaSansVF.woff2") format("woff2");
+  font-weight: 200 900;
+  font-display: swap;
+}
+
+
+:root {
+  --font-mona-sans: "Mona Sans";
+  --background: #f7f7f7;
+  --fmi-accent: #ffffff;
+  --foreground: #171717;
+  --fmi-blue: #0366d6;
+  --fmi-light-blue: #6eafff;
+  --fmi-logo-page-1: #006875;
+  --fmi-logo-page-2: #007c8a;
+  --fmi-logo-page-3: #008e9b;
+  --fmi-logo-page-4: #009eaa;
+  --text-900: var(--color-gray-900);
+  --text-800: var(--color-gray-800);
+  --text-600: var(--color-gray-600);
+  --text-500: var(--color-gray-500);
+  --text-white-900: var(--color-gray-100);
+  --text-white-800: var(--color-gray-200);
+  --text-white-700: var(--color-gray-300);
+  --border: var(--color-gray-200);
+  --navbar-gray: var(--color-gray-100);
+  --navbar-gray-highlight: var(--color-slate-300);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-mona-sans);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+.dark {
+  --background: var(--color-gray-900);
+  --foreground: #f7f7f7;
+  --fmi-accent: var(--color-gray-800);
+  --fmi-blue: #111542;
+  --fmi-light-blue: #2e5b9a;
+  --fmi-logo-page-1: #70d8e2;
+  --fmi-logo-page-2: #8ce3eb;
+  --fmi-logo-page-3: #a8edf2;
+  --fmi-logo-page-4: #c5f4f7;
+  --text-900: var(--color-gray-100);
+  --text-800: var(--color-gray-200);
+  --text-600: var(--color-gray-400);
+  --text-white-900: var(--color-gray-100);
+  --text-white-800: var(--color-gray-200);
+  --text-white-700: var(--color-gray-300);
+  --border: var(--color-gray-700);
+
+  --navbar-gray: var(--color-gray-900);
+  --navbar-gray-highlight: var(--color-slate-700);
+}
+
+
+/*@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    --foreground: #f7f7f7;
+    --fmi-accent: #1e1e1e;
+    --my-orange: #e5735f;
+    --fmi-blue: #58a6ff;
+    --fmi-light-blue: #2e5b9a;
+  }
+}*/
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-mona-sans), sans-serif;
+}
+
+@layer components {
+  .card {
+    background-color: var(--color-white);
+    border-radius: var(--radius-4xl);
+    padding: --spacing(6);
+    box-shadow: var(--shadow-xl);
+  }
+  .menu-item{
+    border-radius: var(--radius-4xl);
+    padding: --spacing(3);
+    color: var(--text-900);
+    font-weight: bold;
+  }
+
+  .menu-item-selected{
+    border-radius: var(--radius-4xl);
+    padding: --spacing(3);
+    font-weight: bold;
+    /* color:var(--fmi-blue); */
+    background-color: var(--navbar-gray-highlight);
+  }
+}
+
+.border{
+  border-color: var(--border);
+  border-width: 1px;
+}
