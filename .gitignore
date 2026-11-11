@@ -40,3 +40,4 @@ data/
 uploads/
 .env
 *.7z
+web/tsconfig.tsbuildinfo
