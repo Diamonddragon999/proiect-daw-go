@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year III/Optionals/Dezvoltarea Jocurilor 3D Folosind Unreal Engine 5",
+      "folders": [
+        {
+          "label": "Modele Examen",
+          "path": "Modele Examen"
+        }
+      ],
+      "includeRootFiles": true
+    }
+  ]
+}

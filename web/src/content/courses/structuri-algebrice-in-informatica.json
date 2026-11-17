@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year I/Semester I/Structuri Algebrice In Informatica",
+      "folders": [
+        {
+          "label": "Bibliografie",
+          "path": "Bibliografie"
+        },
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        },
+        {
+          "label": "Modele Examen",
+          "path": "Modele Examen"
+        },
+        {
+          "label": "Tutoriate",
+          "path": "Tutoriate"
+        }
+      ],
+      "includeRootFiles": true
+    },
+    {
+      "id": "student-repo",
+      "label": "vlaxcs/FMI-INFO-S15-2024-2027",
+      "owner": "vlaxcs",
+      "repository": "FMI-INFO-S15-2024-2027",
+      "branch": "main",
+      "path": "Anul I - Licenta/Semestrul I",
+      "folders": [
+        {
+          "label": "Structuri Algebrice în Informatică",
+          "path": "Structuri Algebrice în Informatică"
+        }
+      ],
+      "includeRootFiles": false
+    }
+  ]
+}

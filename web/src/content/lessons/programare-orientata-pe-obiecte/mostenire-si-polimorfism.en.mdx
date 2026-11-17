@@ -1,0 +1,93 @@
+---
+title: "Demo lesson: Inheritance and polymorphism"
+description: "A small example of a shared interface and runtime dispatch in C++."
+order: 3
+published: true
+---
+
+# Demo lesson: Inheritance and polymorphism
+
+This sample lesson introduces inheritance as a way to define related types and
+polymorphism as the ability to use those types through a shared interface.
+
+## A shared interface
+
+Suppose a program works with several kinds of shapes. Each shape can calculate
+its own area, but the formula depends on the concrete shape:
+
+```cpp
+class Shape {
+public:
+    virtual ~Shape() = default;
+    virtual double area() const = 0;
+};
+```
+
+The `= 0` makes `area` a pure virtual function. `Shape` is therefore an abstract
+base class: it describes an interface, but cannot be instantiated directly.
+The virtual destructor makes deletion through a `Shape` pointer safe.
+
+## Implementing the interface
+
+Derived classes provide their own implementation:
+
+```cpp
+class Rectangle : public Shape {
+public:
+    Rectangle(double width, double height)
+        : width_(width), height_(height) {}
+
+    double area() const override {
+        return width_ * height_;
+    }
+
+private:
+    double width_;
+    double height_;
+};
+
+class Circle : public Shape {
+public:
+    explicit Circle(double radius) : radius_(radius) {}
+
+    double area() const override {
+        return 3.14159 * radius_ * radius_;
+    }
+
+private:
+    double radius_;
+};
+```
+
+`override` asks the compiler to check that the method really overrides a
+virtual method from the base class.
+
+## Runtime polymorphism
+
+Code can store different derived objects behind pointers to the base class and
+call the same interface:
+
+```cpp
+#include <iostream>
+#include <memory>
+#include <vector>
+
+int main() {
+    std::vector<std::unique_ptr<Shape>> shapes;
+    shapes.push_back(std::make_unique<Rectangle>(4.0, 3.0));
+    shapes.push_back(std::make_unique<Circle>(2.0));
+
+    for (const auto& shape : shapes) {
+        std::cout << shape->area() << '\n';
+    }
+}
+```
+
+At runtime, the call to `area()` uses the implementation for the actual object:
+the rectangle or the circle. `std::unique_ptr` owns each object and releases it
+automatically.
+
+## Exercise
+
+Add a `Triangle` class that derives from `Shape`. Implement `area()` using a
+base and a height, then add a triangle to the vector in `main`.

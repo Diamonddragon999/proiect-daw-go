@@ -1,0 +1,82 @@
+---
+title: "Demo lesson: Constructors and methods"
+description: "A short example of initializing an object and defining its public behavior."
+order: 2
+published: true
+---
+
+# Demo lesson: Constructors and methods
+
+This sample lesson builds on the introduction to classes and objects. It shows
+how a constructor establishes an object's initial state and how methods provide
+operations over that state.
+
+## Initializing an object
+
+A constructor has the same name as its class and has no return type. A member
+initializer list assigns values to the object's fields as it is created:
+
+```cpp
+class Rectangle {
+public:
+    Rectangle(double width, double height)
+        : width_(width), height_(height) {}
+
+private:
+    double width_;
+    double height_;
+};
+```
+
+The constructor parameters describe the values needed to create a rectangle.
+The trailing underscore is a common naming convention for private fields.
+
+## Defining methods
+
+Methods can use the object's fields to calculate results:
+
+```cpp
+class Rectangle {
+public:
+    Rectangle(double width, double height)
+        : width_(width), height_(height) {}
+
+    double area() const {
+        return width_ * height_;
+    }
+
+    double perimeter() const {
+        return 2 * (width_ + height_);
+    }
+
+private:
+    double width_;
+    double height_;
+};
+```
+
+The `const` after a method declaration promises that the method will not change
+the object's observable state. It also lets us call the method on a `const`
+rectangle.
+
+```cpp
+#include <iostream>
+
+int main() {
+    const Rectangle garden{4.0, 3.0};
+    std::cout << garden.area() << '\n';      // 12
+    std::cout << garden.perimeter() << '\n'; // 14
+}
+```
+
+## Key ideas
+
+- A constructor establishes an object's initial state.
+- The member initializer list initializes fields directly.
+- Methods define the operations supported by an object.
+- A `const` method can be called without changing the object.
+
+## Exercise
+
+Add a `diagonal()` method to `Rectangle`. Use `std::sqrt` from `<cmath>` to
+calculate the diagonal, and make sure the method does not modify the rectangle.

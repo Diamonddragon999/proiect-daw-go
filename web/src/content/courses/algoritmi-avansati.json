@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year II/Semester II/Algoritmi Avansati",
+      "folders": [
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        },
+        {
+          "label": "Modele Examen",
+          "path": "Modele Examen"
+        }
+      ],
+      "includeRootFiles": true
+    },
+    {
+      "id": "student-repo",
+      "label": "vlaxcs/FMI-INFO-S15-2024-2027",
+      "owner": "vlaxcs",
+      "repository": "FMI-INFO-S15-2024-2027",
+      "branch": "main",
+      "path": "Anul II - Licenta/Semestrul II",
+      "folders": [
+        {
+          "label": "Algoritmi Avansati",
+          "path": "AA"
+        }
+      ],
+      "includeRootFiles": false
+    }
+  ]
+}

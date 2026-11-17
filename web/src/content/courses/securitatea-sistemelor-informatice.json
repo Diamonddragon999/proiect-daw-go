@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year III/Semester II/Securitatea Sistemelor Informatice",
+      "folders": [
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        },
+        {
+          "label": "Modele Examene",
+          "path": "Modele Examene"
+        }
+      ],
+      "includeRootFiles": true
+    }
+  ]
+}

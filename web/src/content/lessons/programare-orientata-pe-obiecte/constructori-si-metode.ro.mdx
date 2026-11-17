@@ -1,0 +1,83 @@
+---
+title: "Lecție demonstrativă: Constructori și metode"
+description: "Un exemplu scurt despre inițializarea unui obiect și comportamentul său public."
+order: 2
+published: true
+---
+
+# Lecție demonstrativă: Constructori și metode
+
+Această lecție-model continuă introducerea în clase și obiecte. Arată cum un
+constructor stabilește starea inițială a unui obiect și cum metodele definesc
+operații asupra acelei stări.
+
+## Inițializarea unui obiect
+
+Constructorul are același nume ca și clasa și nu are tip de retur. Lista de
+inițializare atribuie valori câmpurilor în momentul creării obiectului:
+
+```cpp
+class Dreptunghi {
+public:
+    Dreptunghi(double latime, double inaltime)
+        : latime_(latime), inaltime_(inaltime) {}
+
+private:
+    double latime_;
+    double inaltime_;
+};
+```
+
+Parametrii constructorului descriu valorile necesare pentru crearea
+dreptunghiului. Sufixul `_` este o convenție des întâlnită pentru câmpurile
+private.
+
+## Definirea metodelor
+
+Metodele pot folosi câmpurile obiectului pentru a calcula rezultate:
+
+```cpp
+class Dreptunghi {
+public:
+    Dreptunghi(double latime, double inaltime)
+        : latime_(latime), inaltime_(inaltime) {}
+
+    double arie() const {
+        return latime_ * inaltime_;
+    }
+
+    double perimetru() const {
+        return 2 * (latime_ + inaltime_);
+    }
+
+private:
+    double latime_;
+    double inaltime_;
+};
+```
+
+`const` după declarația metodei promite că metoda nu va modifica starea
+observabilă a obiectului. Astfel, metoda poate fi apelată și pentru un
+dreptunghi constant.
+
+```cpp
+#include <iostream>
+
+int main() {
+    const Dreptunghi gradina{4.0, 3.0};
+    std::cout << gradina.arie() << '\n';       // 12
+    std::cout << gradina.perimetru() << '\n'; // 14
+}
+```
+
+## Idei principale
+
+- Constructorul stabilește starea inițială a unui obiect.
+- Lista de inițializare inițializează direct câmpurile.
+- Metodele definesc operațiile pe care le oferă un obiect.
+- O metodă `const` poate fi apelată fără să modifice obiectul.
+
+## Exercițiu
+
+Adaugă metoda `diagonala()` în clasa `Dreptunghi`. Folosește `std::sqrt` din
+`<cmath>` pentru calcul și asigură-te că metoda nu modifică dreptunghiul.

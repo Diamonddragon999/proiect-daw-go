@@ -5,8 +5,8 @@ import type { Dictionary, Language } from "@/i18n";
 
 export default function Hero({ text, language }: { text: Dictionary; language: Language }) {
     return (
-        <div className="bg-(--fmi-blue) w-full h-screen flex flex-col text-white selection:bg-white selection:text-black">
-            <main className="flex-1 flex items-center justify-center px-6 py-12">
+        <div className="relative flex min-h-screen w-full flex-col overflow-hidden bg-(--fmi-blue) text-white selection:bg-white selection:text-black">
+            <main className="flex flex-1 items-center justify-center px-6 pt-28 pb-10">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
                     <div className="flex flex-col gap-6 text-left">
                         <div className="gap-2 flex flex-col">

@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year I/Semester I/Gandire Critica Si Etica Academica",
+      "folders": [
+        {
+          "label": "Bibliografie",
+          "path": "Bibliografie"
+        },
+        {
+          "label": "Eseu",
+          "path": "Eseu"
+        },
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        }
+      ],
+      "includeRootFiles": true
+    }
+  ]
+}

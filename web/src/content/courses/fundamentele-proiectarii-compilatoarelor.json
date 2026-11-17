@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year III/Optionals/Fundamentele Proiectarii Compilatoarelor",
+      "folders": [
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        },
+        {
+          "label": "Modele Examen",
+          "path": "Modele Examen"
+        },
+        {
+          "label": "Proiecte",
+          "path": "Proiecte"
+        }
+      ],
+      "includeRootFiles": true
+    }
+  ]
+}

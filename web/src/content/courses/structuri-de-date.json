@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year I/Semester II/Structuri De Date",
+      "folders": [
+        {
+          "label": "Bibliografie",
+          "path": "Bibliografie"
+        },
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        },
+        {
+          "label": "Modele Examen",
+          "path": "Modele Examen"
+        },
+        {
+          "label": "Tutoriate",
+          "path": "Tutoriate"
+        }
+      ],
+      "includeRootFiles": true
+    },
+    {
+      "id": "student-repo",
+      "label": "vlaxcs/FMI-INFO-S15-2024-2027",
+      "owner": "vlaxcs",
+      "repository": "FMI-INFO-S15-2024-2027",
+      "branch": "main",
+      "path": "Anul I - Licenta/Semestrul II",
+      "folders": [
+        {
+          "label": "Structuri de Date",
+          "path": "Structuri de Date"
+        }
+      ],
+      "includeRootFiles": false
+    }
+  ]
+}

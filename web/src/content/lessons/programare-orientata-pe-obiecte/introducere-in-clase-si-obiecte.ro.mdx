@@ -1,0 +1,90 @@
+---
+title: Introducere în clase și obiecte
+description: Primii pași în programarea orientată pe obiecte cu C++.
+order: 1
+published: true
+---
+
+# Clase și obiecte
+
+Programarea orientată pe obiecte organizează un program în jurul unor **obiecte**:
+valori care păstrează împreună datele și operațiile care lucrează cu ele.
+
+O **clasă** descrie forma și comportamentul pe care îl vor avea obiectele. Un
+**obiect** este o instanță concretă a unei clase.
+
+## Definirea unei clase
+
+De exemplu, putem modela un cont bancar prin sold și operații de depunere și
+retragere:
+
+```cpp
+#include <iostream>
+#include <string>
+#include <utility>
+
+class ContBancar {
+public:
+    ContBancar(std::string titular, double soldInitial)
+        : titular_(std::move(titular)), sold_(soldInitial) {}
+
+    void depune(double suma) {
+        if (suma > 0) {
+            sold_ += suma;
+        }
+    }
+
+    double sold() const {
+        return sold_;
+    }
+
+private:
+    std::string titular_;
+    double sold_;
+};
+```
+
+Constructorul `ContBancar` inițializează datele obiectului. Membrii declarați
+`private` nu pot fi modificați direct din afara clasei; metodele publice oferă o
+interfață controlată.
+
+## Crearea și folosirea unui obiect
+
+După ce avem clasa, putem crea obiecte și le putem apela metodele:
+
+```cpp
+int main() {
+    ContBancar cont{"Ana", 100.0};
+    cont.depune(50.0);
+
+    std::cout << cont.sold() << '\n'; // 150
+}
+```
+
+Operatorul `.` accesează o metodă publică a obiectului. În exemplu, `cont` și
+`cont2` ar putea fi două obiecte independente, fiecare cu propriul titular și
+propriul sold.
+
+## Încapsularea
+
+Încapsularea înseamnă să păstrăm detaliile interne ale obiectului ascunse și să
+expunem doar operațiile de care au nevoie ceilalți utilizatori ai clasei. Astfel,
+clasa poate impune reguli: de exemplu, `depune` ignoră sumele care nu sunt
+pozitive.
+
+> Interfața publică a unei clase este contractul pe care îl oferă codului care o
+> folosește.
+
+## De reținut
+
+- **Clasa** este descrierea; **obiectul** este o instanță a descrierii.
+- Câmpurile păstrează starea unui obiect.
+- Metodele definesc operațiile disponibile.
+- `private` protejează starea internă, iar `public` definește interfața.
+- Un constructor stabilește starea inițială a obiectului.
+
+## Exercițiu
+
+Creează o clasă `Dreptunghi` cu lungime și lățime. Adaugă un constructor și două
+metode `arie()` și `perimetru()`. În `main`, creează un dreptunghi și afișează
+rezultatele.

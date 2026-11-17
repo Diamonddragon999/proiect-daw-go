@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year III/Optionals/Grafica Pe Calculator",
+      "folders": [
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        },
+        {
+          "label": "Modele Examen",
+          "path": "Modele Examen"
+        }
+      ],
+      "includeRootFiles": true
+    }
+  ]
+}

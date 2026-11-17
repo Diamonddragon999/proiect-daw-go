@@ -1,0 +1,95 @@
+---
+title: "Lecție demonstrativă: Moștenire și polimorfism"
+description: "Un exemplu scurt de interfață comună și apelare dinamică în C++."
+order: 3
+published: true
+---
+
+# Lecție demonstrativă: Moștenire și polimorfism
+
+Această lecție-model prezintă moștenirea ca modalitate de a defini tipuri
+înrudite și polimorfismul ca posibilitatea de a folosi aceste tipuri printr-o
+interfață comună.
+
+## O interfață comună
+
+Să presupunem că un program lucrează cu mai multe tipuri de forme. Fiecare formă
+își poate calcula aria, dar formula depinde de tipul concret:
+
+```cpp
+class Forma {
+public:
+    virtual ~Forma() = default;
+    virtual double arie() const = 0;
+};
+```
+
+`= 0` face ca `arie` să fie o funcție virtuală pură. Prin urmare, `Forma` este o
+clasă de bază abstractă: descrie o interfață, dar nu poate fi instanțiată
+direct. Destructorul virtual permite ștergerea în siguranță printr-un pointer la
+`Forma`.
+
+## Implementarea interfeței
+
+Clasele derivate oferă implementări proprii:
+
+```cpp
+class Dreptunghi : public Forma {
+public:
+    Dreptunghi(double latime, double inaltime)
+        : latime_(latime), inaltime_(inaltime) {}
+
+    double arie() const override {
+        return latime_ * inaltime_;
+    }
+
+private:
+    double latime_;
+    double inaltime_;
+};
+
+class Cerc : public Forma {
+public:
+    explicit Cerc(double raza) : raza_(raza) {}
+
+    double arie() const override {
+        return 3.14159 * raza_ * raza_;
+    }
+
+private:
+    double raza_;
+};
+```
+
+`override` îi cere compilatorului să verifice dacă metoda suprascrie într-adevăr
+o metodă virtuală din clasa de bază.
+
+## Polimorfism la execuție
+
+Codul poate păstra obiecte derivate diferite prin pointeri la clasa de bază și
+poate apela aceeași interfață:
+
+```cpp
+#include <iostream>
+#include <memory>
+#include <vector>
+
+int main() {
+    std::vector<std::unique_ptr<Forma>> forme;
+    forme.push_back(std::make_unique<Dreptunghi>(4.0, 3.0));
+    forme.push_back(std::make_unique<Cerc>(2.0));
+
+    for (const auto& forma : forme) {
+        std::cout << forma->arie() << '\n';
+    }
+}
+```
+
+La execuție, apelul `arie()` folosește implementarea potrivită obiectului
+concret: dreptunghiul sau cercul. `std::unique_ptr` deține fiecare obiect și îl
+eliberează automat.
+
+## Exercițiu
+
+Adaugă o clasă `Triunghi` derivată din `Forma`. Implementează `arie()` folosind
+baza și înălțimea, apoi adaugă un triunghi în vectorul din `main`.

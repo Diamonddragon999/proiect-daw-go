@@ -1,0 +1,1066 @@
+{
+  "courses": [
+    {
+      "slug": "algoritmi-avansati",
+      "importance": 3,
+      "title": {
+        "en": "Algoritmi Avansati",
+        "ro": "Algoritmi Avansati"
+      },
+      "description": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      }
+    },
+    {
+      "slug": "algoritmi-fundamentali",
+      "importance": 3,
+      "title": {
+        "en": "Algoritmi Fundamentali",
+        "ro": "Algoritmi Fundamentali"
+      },
+      "description": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      }
+    },
+    {
+      "slug": "arhitectura-sistemelor-de-calcul",
+      "importance": 3,
+      "title": {
+        "en": "Arhitectura Sistemelor De Calcul",
+        "ro": "Arhitectura Sistemelor De Calcul"
+      },
+      "description": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      }
+    },
+    {
+      "slug": "baze-de-date",
+      "importance": 3,
+      "title": {
+        "en": "Baze De Date",
+        "ro": "Baze De Date"
+      },
+      "description": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      }
+    },
+    {
+      "slug": "calcul-diferential-si-integral",
+      "importance": 3,
+      "title": {
+        "en": "Calcul Diferential Si Integral",
+        "ro": "Calcul Diferential Si Integral"
+      },
+      "description": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      }
+    },
+    {
+      "slug": "calculabilitate-si-complexitate",
+      "importance": 3,
+      "title": {
+        "en": "Calculabilitate Si Complexitate",
+        "ro": "Calculabilitate Si Complexitate"
+      },
+      "description": {
+        "en": "Year III - Semester I",
+        "ro": "Anul III - Semestrul I"
+      },
+      "academicYear": "Year III",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year III - Semester I",
+        "ro": "Anul III - Semestrul I"
+      }
+    },
+    {
+      "slug": "dezvoltarea-aplicatiilor-web",
+      "importance": 3,
+      "title": {
+        "en": "Dezvoltarea Aplicatiilor Web",
+        "ro": "Dezvoltarea Aplicatiilor Web"
+      },
+      "description": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      }
+    },
+    {
+      "slug": "engleza-1",
+      "importance": 3,
+      "title": {
+        "en": "Engleza",
+        "ro": "Engleza"
+      },
+      "description": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      }
+    },
+    {
+      "slug": "engleza-2",
+      "importance": 3,
+      "title": {
+        "en": "Engleza",
+        "ro": "Engleza"
+      },
+      "description": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      }
+    },
+    {
+      "slug": "engleza-3",
+      "importance": 3,
+      "title": {
+        "en": "Engleza",
+        "ro": "Engleza"
+      },
+      "description": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      }
+    },
+    {
+      "slug": "fundamentele-limbajelor-de-programare",
+      "importance": 3,
+      "title": {
+        "en": "Fundamentele Limbajelor De Programare",
+        "ro": "Fundamentele Limbajelor De Programare"
+      },
+      "description": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      }
+    },
+    {
+      "slug": "gandire-critica-si-etica-academica",
+      "importance": 3,
+      "title": {
+        "en": "Gandire Critica Si Etica Academica",
+        "ro": "Gandire Critica Si Etica Academica"
+      },
+      "description": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      }
+    },
+    {
+      "slug": "geometrie-si-algebra-liniara",
+      "importance": 3,
+      "title": {
+        "en": "Geometrie Si Algebra Liniara",
+        "ro": "Geometrie Si Algebra Liniara"
+      },
+      "description": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      }
+    },
+    {
+      "slug": "inginerie-software",
+      "importance": 3,
+      "title": {
+        "en": "Inginerie Software",
+        "ro": "Inginerie Software"
+      },
+      "description": {
+        "en": "Year III - Semester I",
+        "ro": "Anul III - Semestrul I"
+      },
+      "academicYear": "Year III",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year III - Semester I",
+        "ro": "Anul III - Semestrul I"
+      }
+    },
+    {
+      "slug": "inteligenta-artificiala",
+      "importance": 3,
+      "title": {
+        "en": "Inteligenta Artificiala",
+        "ro": "Inteligenta Artificiala"
+      },
+      "description": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      }
+    },
+    {
+      "slug": "licenta",
+      "importance": 3,
+      "title": {
+        "en": "Licenta",
+        "ro": "Licenta"
+      },
+      "description": {
+        "en": "Year III - Semester II",
+        "ro": "Anul III - Semestrul II"
+      },
+      "academicYear": "Year III",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year III - Semester II",
+        "ro": "Anul III - Semestrul II"
+      }
+    },
+    {
+      "slug": "limbaje-formale-si-automate",
+      "importance": 3,
+      "title": {
+        "en": "Limbaje Formale Si Automate",
+        "ro": "Limbaje Formale Si Automate"
+      },
+      "description": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      }
+    },
+    {
+      "slug": "logica-matematica-si-computationala",
+      "importance": 3,
+      "title": {
+        "en": "Logica Matematica Si Computationala",
+        "ro": "Logica Matematica Si Computationala"
+      },
+      "description": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      }
+    },
+    {
+      "slug": "metode-de-dezvoltare-software",
+      "importance": 3,
+      "title": {
+        "en": "Metode De Dezvoltare Software",
+        "ro": "Metode De Dezvoltare Software"
+      },
+      "description": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      }
+    },
+    {
+      "slug": "probabilitati-si-statistica",
+      "importance": 3,
+      "title": {
+        "en": "Probabilitati Si Statistica",
+        "ro": "Probabilitati Si Statistica"
+      },
+      "description": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      }
+    },
+    {
+      "slug": "programare-avansata-pe-obiecte",
+      "importance": 3,
+      "title": {
+        "en": "Programare Avansata Pe Obiecte",
+        "ro": "Programare Avansata Pe Obiecte"
+      },
+      "description": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      }
+    },
+    {
+      "slug": "programare-functionala",
+      "importance": 3,
+      "title": {
+        "en": "Programare Functionala",
+        "ro": "Programare Functionala"
+      },
+      "description": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      }
+    },
+    {
+      "slug": "programare-orientata-pe-obiecte",
+      "importance": 3,
+      "title": {
+        "en": "Programare Orientata Pe Obiecte",
+        "ro": "Programare Orientata Pe Obiecte"
+      },
+      "description": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      }
+    },
+    {
+      "slug": "programarea-algorimilor",
+      "importance": 3,
+      "title": {
+        "en": "Programarea Algorimilor",
+        "ro": "Programarea Algorimilor"
+      },
+      "description": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      }
+    },
+    {
+      "slug": "retele-de-calculatoare",
+      "importance": 3,
+      "title": {
+        "en": "Retele De Calculatoare",
+        "ro": "Retele De Calculatoare"
+      },
+      "description": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year II - Semester II",
+        "ro": "Anul II - Semestrul II"
+      }
+    },
+    {
+      "slug": "securitatea-sistemelor-informatice",
+      "importance": 3,
+      "title": {
+        "en": "Securitatea Sistemelor Informatice",
+        "ro": "Securitatea Sistemelor Informatice"
+      },
+      "description": {
+        "en": "Year III - Semester II",
+        "ro": "Anul III - Semestrul II"
+      },
+      "academicYear": "Year III",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year III - Semester II",
+        "ro": "Anul III - Semestrul II"
+      }
+    },
+    {
+      "slug": "sisteme-de-gestiune-a-bazelor-de-date",
+      "importance": 3,
+      "title": {
+        "en": "Sisteme De Gestiune A Bazelor De Date",
+        "ro": "Sisteme De Gestiune A Bazelor De Date"
+      },
+      "description": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      }
+    },
+    {
+      "slug": "sisteme-de-operare",
+      "importance": 3,
+      "title": {
+        "en": "Sisteme De Operare",
+        "ro": "Sisteme De Operare"
+      },
+      "description": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      },
+      "academicYear": "Year II",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year II - Semester I",
+        "ro": "Anul II - Semestrul I"
+      }
+    },
+    {
+      "slug": "structuri-algebrice-in-informatica",
+      "importance": 3,
+      "title": {
+        "en": "Structuri Algebrice In Informatica",
+        "ro": "Structuri Algebrice In Informatica"
+      },
+      "description": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester I",
+      "category": {
+        "en": "Year I - Semester I",
+        "ro": "Anul I - Semestrul I"
+      }
+    },
+    {
+      "slug": "structuri-de-date",
+      "importance": 3,
+      "title": {
+        "en": "Structuri De Date",
+        "ro": "Structuri De Date"
+      },
+      "description": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      }
+    },
+    {
+      "slug": "tehnici-web",
+      "importance": 3,
+      "title": {
+        "en": "Tehnici Web",
+        "ro": "Tehnici Web"
+      },
+      "description": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      },
+      "academicYear": "Year I",
+      "semester": "Semester II",
+      "category": {
+        "en": "Year I - Semester II",
+        "ro": "Anul I - Semestrul II"
+      }
+    },
+    {
+      "slug": "adobe-c-devcamp",
+      "importance": 3,
+      "title": {
+        "en": "Adobe C++ DevCamp",
+        "ro": "Adobe C++ DevCamp"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "algoritmi-paraleli",
+      "importance": 3,
+      "title": {
+        "en": "Algoritmi Paraleli",
+        "ro": "Algoritmi Paraleli"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "blockchain",
+      "importance": 3,
+      "title": {
+        "en": "Blockchain",
+        "ro": "Blockchain"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "calcul-numeric-in-informatica",
+      "importance": 3,
+      "title": {
+        "en": "Calcul Numeric In Informatica",
+        "ro": "Calcul Numeric In Informatica"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "concepte-si-aplicatii-in-vederea-artificiala",
+      "importance": 3,
+      "title": {
+        "en": "Concepte Si Aplicatii In Vederea Artificiala",
+        "ro": "Concepte Si Aplicatii In Vederea Artificiala"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "dezvoltarea-jocurilor-3d-folosind-unreal-engine-5",
+      "importance": 3,
+      "title": {
+        "en": "Dezvoltarea Jocurilor 3D Folosind Unreal Engine 5",
+        "ro": "Dezvoltarea Jocurilor 3D Folosind Unreal Engine 5"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "elemente-de-securitate-si-logica-aplicata",
+      "importance": 3,
+      "title": {
+        "en": "Elemente De Securitate Si Logica Aplicata",
+        "ro": "Elemente De Securitate Si Logica Aplicata"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "frontend-avansat-react-angular",
+      "importance": 3,
+      "title": {
+        "en": "Frontend Avansat React & Angular",
+        "ro": "Frontend Avansat React & Angular"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "fundamentele-proiectarii-compilatoarelor",
+      "importance": 3,
+      "title": {
+        "en": "Fundamentele Proiectarii Compilatoarelor",
+        "ro": "Fundamentele Proiectarii Compilatoarelor"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "grafica-pe-calculator",
+      "importance": 3,
+      "title": {
+        "en": "Grafica Pe Calculator",
+        "ro": "Grafica Pe Calculator"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "implementarea-concurentei-in-limbaje-de-programare",
+      "importance": 3,
+      "title": {
+        "en": "Implementarea Concurentei In Limbaje De Programare",
+        "ro": "Implementarea Concurentei In Limbaje De Programare"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "initiere-in-cercetare-si-bioinformatica",
+      "importance": 3,
+      "title": {
+        "en": "Initiere In Cercetare Si Bioinformatica",
+        "ro": "Initiere In Cercetare Si Bioinformatica"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "introducere-in-prelucrarea-limbajului-natural",
+      "importance": 3,
+      "title": {
+        "en": "Introducere In Prelucrarea Limbajului Natural",
+        "ro": "Introducere In Prelucrarea Limbajului Natural"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "introducere-in-programarea-jocurilor-pe-calculator",
+      "importance": 3,
+      "title": {
+        "en": "Introducere In Programarea Jocurilor Pe Calculator",
+        "ro": "Introducere In Programarea Jocurilor Pe Calculator"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "introducere-in-reinforcement-learning",
+      "importance": 3,
+      "title": {
+        "en": "Introducere In Reinforcement Learning",
+        "ro": "Introducere In Reinforcement Learning"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "javascript-server-side",
+      "importance": 3,
+      "title": {
+        "en": "JavaScript Server Side",
+        "ro": "JavaScript Server Side"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "metode-formale-in-inginerie-software",
+      "importance": 3,
+      "title": {
+        "en": "Metode Formale In Inginerie Software",
+        "ro": "Metode Formale In Inginerie Software"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "prelucrarea-semnalelor",
+      "importance": 3,
+      "title": {
+        "en": "Prelucrarea Semnalelor",
+        "ro": "Prelucrarea Semnalelor"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "production-enginnering",
+      "importance": 3,
+      "title": {
+        "en": "Production Enginnering",
+        "ro": "Production Enginnering"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "programarea-aplicatiilor-de-simulare",
+      "importance": 3,
+      "title": {
+        "en": "Programarea Aplicatiilor De Simulare",
+        "ro": "Programarea Aplicatiilor De Simulare"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "programarea-dispozitivelor-android",
+      "importance": 3,
+      "title": {
+        "en": "Programarea Dispozitivelor Android",
+        "ro": "Programarea Dispozitivelor Android"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "protocoale-criptografice",
+      "importance": 3,
+      "title": {
+        "en": "Protocoale Criptografice",
+        "ro": "Protocoale Criptografice"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "robotic-process-automation",
+      "importance": 3,
+      "title": {
+        "en": "Robotic Process Automation",
+        "ro": "Robotic Process Automation"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "sisteme-distribuite",
+      "importance": 3,
+      "title": {
+        "en": "Sisteme Distribuite",
+        "ro": "Sisteme Distribuite"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "strategii-de-planificare-a-unei-echipe-de-roboti",
+      "importance": 3,
+      "title": {
+        "en": "Strategii De Planificare A Unei Echipe De Roboti",
+        "ro": "Strategii De Planificare A Unei Echipe De Roboti"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "tehnici-de-optimizare",
+      "importance": 3,
+      "title": {
+        "en": "Tehnici De Optimizare",
+        "ro": "Tehnici De Optimizare"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "tehnici-de-simulare",
+      "importance": 3,
+      "title": {
+        "en": "Tehnici De Simulare",
+        "ro": "Tehnici De Simulare"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    },
+    {
+      "slug": "testarea-sistemelor-software",
+      "importance": 3,
+      "title": {
+        "en": "Testarea Sistemelor Software",
+        "ro": "Testarea Sistemelor Software"
+      },
+      "description": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Optionale"
+      },
+      "academicYear": "Year III",
+      "semester": "Optionals",
+      "category": {
+        "en": "Year III - Optional courses",
+        "ro": "Anul III - Cursuri opționale"
+      }
+    }
+  ]
+}

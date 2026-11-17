@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year III/Semester I/Calculabilitate Si Complexitate",
+      "folders": [
+        {
+          "label": "Bibliografie",
+          "path": "Bibliografie"
+        },
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        },
+        {
+          "label": "Modele Colocviu",
+          "path": "Modele Colocviu"
+        },
+        {
+          "label": "Modele Examen",
+          "path": "Modele Examen"
+        }
+      ],
+      "includeRootFiles": true
+    }
+  ]
+}

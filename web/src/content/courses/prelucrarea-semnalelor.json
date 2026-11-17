@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year III/Optionals/Prelucrarea Semnalelor",
+      "folders": [
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        }
+      ],
+      "includeRootFiles": true
+    }
+  ]
+}

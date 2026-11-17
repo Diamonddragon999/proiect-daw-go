@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "id": "main",
+      "label": "FMI-Materials/FMI-Bachelor-Materials",
+      "owner": "FMI-Materials",
+      "repository": "FMI-Bachelor-Materials",
+      "branch": "main",
+      "path": "Year III/Optionals/Programarea Aplicatiilor De Simulare",
+      "folders": [
+        {
+          "label": "Bibliografie",
+          "path": "Bibliografie"
+        },
+        {
+          "label": "Materiale",
+          "path": "Materiale"
+        }
+      ],
+      "includeRootFiles": true
+    }
+  ]
+}
