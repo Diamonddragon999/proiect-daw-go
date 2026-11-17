@@ -36,8 +36,8 @@ go.work.sum
 node_modules
 dist
 *.sqlite
-data/
-uploads/
+/data/
+/uploads/
 .env
 *.7z
 web/tsconfig.tsbuildinfo
